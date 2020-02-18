@@ -18,6 +18,7 @@
 //                 Dimitri Mitropoulos <https://github.com/dimitropoulos>
 //                 Eliot Ball <https://github.com/eliotball>
 //                 Ville Kentta <https://github.com/vkentta>
+//                 Scott Callaway <https://github.com/scallaway>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.8
 
