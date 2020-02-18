@@ -18,6 +18,7 @@
 //                 Dimitri Mitropoulos <https://github.com/dimitropoulos>
 //                 Eliot Ball <https://github.com/eliotball>
 //                 Ville Kentta <https://github.com/vkentta>
+//                 Scott Callaway <https://github.com/scallaway>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.8
 
@@ -120,6 +121,7 @@ export interface CategoricalChartWrapper<L = LayoutType> {
     className?: string;
     children?: React.ReactNode | React.ReactNode[];
     onClick?: RechartsFunction;
+    onDoubleClick?: RechartsFunction;
     onMouseLeave?: RechartsFunction;
     onMouseEnter?: RechartsFunction;
     onMouseMove?: RechartsFunction;
@@ -130,6 +132,7 @@ export interface CategoricalChartWrapper<L = LayoutType> {
 
 export interface EventAttributes {
     onClick?: RechartsFunction;
+    onDoubleClick?: RechartsFunction;
     onMouseDown?: RechartsFunction;
     onMouseUp?: RechartsFunction;
     onMouseOver?: RechartsFunction;
@@ -326,6 +329,7 @@ export class CartesianGrid extends React.Component<CartesianGridProps> { }
 
 export interface CellProps extends Partial<PresentationAttributes> {
     onClick?: RechartsFunction;
+    onDoubleClick?: RechartsFunction;
     onMouseEnter?: RechartsFunction;
     onMouseLeave?: RechartsFunction;
 }
